@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header.header_page {
+  background-color: rgb(25, 118, 210);
+}
+
+header .header_icon svg {
+  width: 24px;
+  fill: white;
+}
+
+header .header_icon {
+  transform: translateY(-1px);
+  margin-right: 12px;
+}
+
+header .header_label h1 {
+  font-size: 1.25rem;
+  color: white;
+}
+
+header .header_content {
+  display: flex;
+}
+
+header {
+  padding: 24px;
+}
+
+div.main_banner {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+div.main_banner .main_banner_content {
+  max-width: 400px;
+}
+
+div.main_banner .main_banner_content h1 {
+  font-size: 3.25rem;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 0.35em;
+}
+
+div.main_banner .main_banner_content p {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+div.main_banner .main_banner_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.primary,
+.secondary {
+  padding: 8px;
+  outline: 0;
+  border: none;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.primary {
+  background-color: rgb(25, 118, 210);
+  color: white;
+  font-weight: bold;
+}
+
+.secondary {
+  background-color: white;
+  color: rgb(25, 115, 210);
+}
+
+div.cards_banner img {
+  width: 260px;
+  margin-top: 100px;
+}
+
+div.cards_banner .card_content {
+  border: 1px solid #ccc;
+  max-width: 260px;
+  border-radius: 0.5rem;
+}
+
+div.cards_banner .card_content h1 {
+  margin: 20px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: rgb(25, 115, 210);
+}
+
+div.cards_banner .card_content p {
+  margin: 20px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgb(25, 115, 210);
+}
+
+div.cards_banner .card_content .card_buttons {
+  margin: 20px;
+  outline: none;
+  border: none;
+  color: rgb(25, 115, 210);
+  text-transform: uppercase;
+}
+
+div.cards_banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
